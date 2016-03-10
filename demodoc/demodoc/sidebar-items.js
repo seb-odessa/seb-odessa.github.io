@@ -1,1 +1,1 @@
-initSidebarItems({"fn":[["get_true","This function always returns true # Examples"]],"struct":[["Foo","Foo struct with the some payload"]],"trait":[["HasName","The trait HasName requires name function implementation"]]});
+initSidebarItems({"fn":[["get_true","This function always returns true # Examples ``` assert!(get_true()); # fn get_true() -> bool { return true } ``` This function will return true"]],"struct":[["Foo","a Foo struct"]],"trait":[["HasName","The trait HasName"]]});

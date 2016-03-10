@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="generator" content="rustdoc">
-    <meta name="description" content="Source to the Rust file `lib.rs`.">
+    <meta name="description" content="Source to the Rust file `src/lib.rs`.">
     <meta name="keywords" content="rust, rustlang, rust-lang">
 
     <title>lib.rs.html -- source</title>
@@ -64,22 +64,14 @@
 <span id="21">21</span>
 <span id="22">22</span>
 <span id="23">23</span>
-<span id="24">24</span>
-<span id="25">25</span>
-<span id="26">26</span>
-<span id="27">27</span>
 </pre><pre class='rust '>
 <span class='doccomment'>//! A demo library. This is a crate level description</span>
 
-<span class='doccomment'>/// Foo struct with the some payload</span>
-<span class='kw'>pub</span> <span class='kw'>struct</span> <span class='ident'>Foo</span>{
-    <span class='doccomment'>/// The payload contains payload of the structure</span>
-    <span class='ident'>name</span> : <span class='ident'>String</span>
-}
+<span class='doccomment'>/// a Foo struct</span>
+<span class='kw'>pub</span> <span class='kw'>struct</span> <span class='ident'>Foo</span>{ <span class='ident'>name</span> : <span class='ident'>String</span> }
 
 <span class='doccomment'>/// This function always returns true</span>
 <span class='doccomment'>/// # Examples</span>
-<span class='doccomment'>///</span>
 <span class='doccomment'>/// ```</span>
 <span class='doccomment'>/// assert!(get_true());</span>
 <span class='doccomment'>/// # fn get_true() -&gt; bool { return true }</span>
@@ -89,7 +81,7 @@
     <span class='kw'>return</span> <span class='boolval'>true</span>;
 }
 
-<span class='doccomment'>/// The trait HasName requires name function implementation</span>
+<span class='doccomment'>/// The trait HasName</span>
 <span class='kw'>pub</span> <span class='kw'>trait</span> <span class='ident'>HasName</span> { <span class='kw'>fn</span> <span class='ident'>name</span>(<span class='kw-2'>&amp;</span><span class='self'>self</span>) <span class='op'>-&gt;</span> <span class='ident'>String</span>; }
 
 <span class='doccomment'>/// The implementation of the HasName name for Foo</span>
