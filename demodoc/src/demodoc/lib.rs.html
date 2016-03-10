@@ -59,6 +59,11 @@
 <span id="16">16</span>
 <span id="17">17</span>
 <span id="18">18</span>
+<span id="19">19</span>
+<span id="20">20</span>
+<span id="21">21</span>
+<span id="22">22</span>
+<span id="23">23</span>
 </pre><pre class='rust '>
 <span class='doccomment'>//! Demo library. This is a crate level description</span>
 
@@ -68,10 +73,15 @@
     <span class='ident'>payload</span> : <span class='ident'>String</span>
 }
 
+<span class='doccomment'>/// The function pub fn get_true() -&gt; bool always returns true</span>
 <span class='kw'>pub</span> <span class='kw'>fn</span> <span class='ident'>get_true</span>() <span class='op'>-&gt;</span> <span class='ident'>bool</span> {
     <span class='doccomment'>//! This function will return true</span>
     <span class='kw'>return</span> <span class='boolval'>true</span>;
 }
+
+
+
+
 
 <span class='attribute'>#[<span class='ident'>test</span>]</span>
 <span class='kw'>fn</span> <span class='ident'>it_works</span>() 

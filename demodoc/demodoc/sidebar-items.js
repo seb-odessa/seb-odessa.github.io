@@ -1,1 +1,1 @@
-initSidebarItems({"fn":[["get_true","This function will return true"]],"struct":[["Foo","Foo struct with the some payload"]]});
+initSidebarItems({"fn":[["get_true","The function pub fn get_true() -> bool always returns true This function will return true"]],"struct":[["Foo","Foo struct with the some payload"]]});
