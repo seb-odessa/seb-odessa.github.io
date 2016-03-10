@@ -56,30 +56,14 @@
 <span id="13">13</span>
 <span id="14">14</span>
 <span id="15">15</span>
-<span id="16">16</span>
-<span id="17">17</span>
-<span id="18">18</span>
-<span id="19">19</span>
-<span id="20">20</span>
-<span id="21">21</span>
-<span id="22">22</span>
-<span id="23">23</span>
 </pre><pre class='rust '>
-<span class='doccomment'>//! A demo library</span>
+<span class='doccomment'>//! A Demo library</span>
 
 <span class='doccomment'>/// a Foo struct</span>
 <span class='kw'>pub</span> <span class='kw'>struct</span> <span class='ident'>Foo</span>{ <span class='ident'>name</span> : <span class='ident'>String</span> }
 
 <span class='doccomment'>/// This function always returns true</span>
-<span class='doccomment'>/// # Examples</span>
-<span class='doccomment'>/// ```</span>
-<span class='doccomment'>/// assert!(get_true());</span>
-<span class='doccomment'>/// # fn get_true() -&gt; bool { return true }</span>
-<span class='doccomment'>/// ```</span>
-<span class='kw'>pub</span> <span class='kw'>fn</span> <span class='ident'>get_true</span>() <span class='op'>-&gt;</span> <span class='ident'>bool</span> {
-    <span class='doccomment'>//! This function returns true</span>
-    <span class='kw'>return</span> <span class='boolval'>true</span>;
-}
+<span class='kw'>pub</span> <span class='kw'>fn</span> <span class='ident'>get_true</span>() <span class='op'>-&gt;</span> <span class='ident'>bool</span> { <span class='kw'>return</span> <span class='boolval'>true</span>; }
 
 <span class='doccomment'>/// The trait HasName</span>
 <span class='kw'>pub</span> <span class='kw'>trait</span> <span class='ident'>HasName</span> { <span class='kw'>fn</span> <span class='ident'>name</span>(<span class='kw-2'>&amp;</span><span class='self'>self</span>) <span class='op'>-&gt;</span> <span class='ident'>String</span>; }
