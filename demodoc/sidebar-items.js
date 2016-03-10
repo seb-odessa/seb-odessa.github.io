@@ -1,1 +1,1 @@
-initSidebarItems({"struct":[["Foo","Unusual Foo struct with the some payload"]]});
+initSidebarItems({"fn":[["get_true","This function will return true"]],"struct":[["Foo","Foo struct with the some payload"]]});
