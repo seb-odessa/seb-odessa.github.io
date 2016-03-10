@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="generator" content="rustdoc">
-    <meta name="description" content="Source to the Rust file `src/lib.rs`.">
+    <meta name="description" content="Source to the Rust file `lib.rs`.">
     <meta name="keywords" content="rust, rustlang, rust-lang">
 
     <title>lib.rs.html -- source</title>
@@ -59,35 +59,25 @@
 <span id="16">16</span>
 <span id="17">17</span>
 <span id="18">18</span>
-<span id="19">19</span>
-<span id="20">20</span>
-<span id="21">21</span>
-<span id="22">22</span>
-<span id="23">23</span>
 </pre><pre class='rust '>
-<span class='doccomment'>//! Demo library. This is a crate level description</span>
-
+<span class='doccomment'>//! A demo library. This is a crate level description</span>
 <span class='doccomment'>/// Foo struct with the some payload</span>
 <span class='kw'>pub</span> <span class='kw'>struct</span> <span class='ident'>Foo</span>{
     <span class='doccomment'>/// The payload contains payload of the structure</span>
     <span class='ident'>payload</span> : <span class='ident'>String</span>
 }
-
-<span class='doccomment'>/// The function pub fn get_true() -&gt; bool always returns true</span>
+<span class='doccomment'>/// This function always returns true</span>
+<span class='doccomment'>/// # Examples</span>
+<span class='doccomment'>///</span>
+<span class='doccomment'>/// ```</span>
+<span class='doccomment'>/// assert!(get_true());</span>
+<span class='doccomment'>/// # fn get_true() -&gt; bool { return true }</span>
+<span class='doccomment'>/// ```</span>
 <span class='kw'>pub</span> <span class='kw'>fn</span> <span class='ident'>get_true</span>() <span class='op'>-&gt;</span> <span class='ident'>bool</span> {
     <span class='doccomment'>//! This function will return true</span>
     <span class='kw'>return</span> <span class='boolval'>true</span>;
 }
 
-
-
-
-
-<span class='attribute'>#[<span class='ident'>test</span>]</span>
-<span class='kw'>fn</span> <span class='ident'>it_works</span>() 
-{
-<span class='doccomment'>//! Recalibrate a pesky universe (this is also a doc comment, like above,</span>
-}
 </pre>
 </section>
     <section id='search' class="content hidden"></section>
