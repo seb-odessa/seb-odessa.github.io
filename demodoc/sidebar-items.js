@@ -1,0 +1,1 @@
+initSidebarItems({"struct":[["Foo","Unusual Foo struct with the some payload"]]});
